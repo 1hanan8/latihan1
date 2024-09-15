@@ -1,0 +1,95 @@
+/* JUDUL */
+
+.judul-container {
+  display: flex;
+  justify-content: center;
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  margin: 25px;
+  width: 35%;
+  border-radius: 70px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
+  margin-left: 25px;
+}
+
+p {
+  color: white;
+  text-indent: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 19px;
+}
+
+.container-pengertian {
+  margin: 0 30px 0 30px;
+}
+
+nav {
+  margin-left: 20px;
+}
+
+nav ul {
+  color: white;
+  height: 110px;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  list-style: circle;
+  height: 35%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav h1 {
+  color: white;
+  margin-left: 20px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  width: 300px;
+  background-color: black;
+  height: 130px;
+}
+
+
+
+nav div:hover a {
+  color: black;
+}
+
+nav div:hover li {
+  color: black;
+}
+
+nav a:hover {
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
