@@ -10,7 +10,7 @@
   justify-content: center;
   text-decoration: none;
   font-family: sans-serif;
-  color: black;
+  color: blue;
   background-color: white;
   margin: 25px;
   width: 35%;
@@ -18,21 +18,26 @@
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pembelajaran {
+  font-size: 50px;
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 h2 {
-  color: white;
+  color: blue;
   font-size: 45px;
   margin-left: 25px;
 }
 
 p {
-  color: white;
+  color: grey;
   text-indent: 30px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -41,6 +46,7 @@ p {
 
 .container-pengertian {
   margin: 0 30px 0 30px;
+  width: 90%;
 }
 
 nav {
@@ -58,7 +64,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: grey;
   text-decoration: none;
   font-size: 15px;
   display: flex;
@@ -67,21 +73,21 @@ nav a {
 }
 
 nav h1 {
-  color: white;
+  color: blue;
   margin-left: 20px;
 }
 
 nav div {
   display: flex;
   align-items: center;
-  border: 2px solid white;
-  width: 300px;
-  background-color: black;
+  border: 2px solid grey;
+  background-color: transparent;
   height: 130px;
+  width: 28%;
 }
 
 nav div:hover a {
-  color: white;
+  color: gray;
 }
 
 nav div:hover li {
@@ -94,6 +100,27 @@ nav a:hover {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 35px;
+  color: orange;
+  padding: 15px 0 0 10px;
+  margin: 0;
+}
+
+footer {
+  margin: 15px 0 0 0;
+  background-color: black;
+  padding: 0;
+  height: 150px;
+}
+
+.footer-h4 {
+  text-decoration: underline;
+  color: white;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.footer-list {
+  list-style: none;
   color: white;
 }
