@@ -28,8 +28,11 @@
   text-align: center;
 }
 
-.icon {
-  fill: white;
+.home-style {
+  margin-top: 15px;
+  margin-right: 48px;
+  color: white;
+  font-size: 35px;
 }
 
 .judul-container {
