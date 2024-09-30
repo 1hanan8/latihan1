@@ -19,11 +19,20 @@
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  color: rgb(253, 253, 253);
-  background-color: transparent;
+  background-color: blue;
 }
 
 .navbar-main li {
+  background-color: yellow;
+}
+
+.navbar-main li a {
+  color: rgb(253, 253, 253);
+  padding: 8px 8px 8px 8px;
+  background-color: ;
+}
+
+.navbar-main li a {
   width: 22.5%;
   text-align: center;
 }
@@ -33,6 +42,10 @@
   margin-right: 48px;
   color: white;
   font-size: 35px;
+}
+
+.home-style:hover {
+  filter: brightness(200%);
 }
 
 .judul-container {
@@ -199,20 +212,20 @@ address {
 
 .footer-list-content li {
   width: 25%;
+  height: 40px;
   text-align: center;
   margin: 0;
   padding: 0;
-}
-
-img {
-  height: 30px;
-  width: auto;
 }
 
 .social-media {
   margin-top: 0;
   padding: 0;
   display: flex;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.social-media i {
+  margin: 0 10px 0 10px;
 }
