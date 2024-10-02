@@ -7,7 +7,7 @@
     <meta name="keywords" content="informatika, website, belajar" />
     <meta name="viewport" initial-scale="1.0" content="width=device-width" />
     <title>Belajar</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../index/index.css" />
     <link rel="shortcut icon" href="../image/favicon.ico" />
     <script src="latihan1.js"></script>
     <script
@@ -18,9 +18,11 @@
   <body>
     <header>
       <nav class="navbar-main-container">
-        <a href="../index/index.html"
-          ><i class="fa fa-solid fa-home home-style"></i
-        ></a>
+        <span class="home-container">
+          <a href="../index/index.html" class="home-style-container"
+            ><i class="fa fa-solid fa-home home-style"></i
+          ></a>
+        </span>
         <ul class="navbar-main">
           <li><a href="#">Komunikasi</a></li>
           <li><a href="#">Transportasi</a></li>
@@ -31,17 +33,20 @@
 
       <div class="judul-container">
         <div class="judul">
-          <h1><span class="pembelajaran">PEMBELAJARAN</span> INFORMATIKA</h1>
+          <h1>
+            <span class="pembelajaran">PEMBELAJARAN</span> <br />
+            INFORMATIKA
+          </h1>
         </div>
       </div>
     </header>
 
     <main>
       <section>
-        <nav>
+        <nav class="bilah-nav-container">
           <h1>Bilah Navigasi</h1>
           <div>
-            <ul>
+            <ul class="bilah-nav-ul">
               <li><a href="#pengertian">Pengertian</a></li>
               <li><a href="">Manfaat</a></li>
               <li><a href="">Implementasi</a></li>
