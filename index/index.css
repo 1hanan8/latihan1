@@ -32,12 +32,24 @@
 }
 
 .navbar-main li a {
-  color: rgb(253, 253, 253);
+  position: relative;
+  color: rgb(36, 36, 36);
   text-align: center;
   /* background-color: blue; */
   padding: 8px 8px 8px 8px;
-  border-radius: 15px;
+  border-radius: 12px;
   text-decoration: none;
+  background-color: white;
+}
+
+.navbar-main li a:hover {
+  box-shadow: 5px 5px 0px 2px blue;
+  border: 2px solid blue;
+}
+
+.navbar-main li a:active {
+  box-shadow: 5px 5px 0px 2px rgb(0, 0, 90);
+  border: 2px solid rgb(0, 0, 90);
 }
 
 /* tombol home */
