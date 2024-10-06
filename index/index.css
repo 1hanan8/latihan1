@@ -238,6 +238,28 @@ p {
   width: 90%;
 }
 
+.container-main-image {
+  display: flex;
+  justify-content: center;
+  margin: 5vw 0 2vw 0;
+}
+
+.container-implementasi img {
+  height: 20vw;
+  width: auto;
+}
+
+/* penutup */
+
+.penutup {
+  margin: 6vw 0 0 0;
+}
+
+.penutup p {
+  margin: 0 30px 0 30px;
+  width: 90%;
+}
+
 /* footer */
 
 h3 {
