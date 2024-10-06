@@ -187,12 +187,15 @@ p {
   list-style-type: decimal;
   color: white;
   position: relative;
+  counter-reset: before-counter;
 }
 
 .container-manfaat li {
   padding: 0.5vw;
-  background-color: red;
+  /* background-color: red; */
   position: static;
+  z-index: 4;
+  color: black;
 }
 
 .container-manfaat ol li span {
@@ -200,16 +203,23 @@ p {
   line-height: 2vw;
   color: black;
   position: static;
+  z-index: 4;
 }
 
-.container-manfaat li::before {
-  content: "";
+.container-manfaat ol li::before {
+  counter-increment: before-counter;
   position: absolute;
-  height: 1.7vw;
-  width: 1.7vw;
-  border-radius: 50%;
   background-color: black;
-  z-index: -1;
+  border-radius: 50%;
+  content: counter(before-counter);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 2vw;
+  height: 2vw;
   left: 1.3vw;
 }
 
